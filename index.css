@@ -29,6 +29,14 @@ a {
     margin-top: 5px;
     color: #FD9843;
 }
+
+.HtmlDemo {
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    color: #FD9843;
+}
+
 @keyframes move_wave {
     0% {
         transform: translateX(0) translateZ(0) scaleY(1)
