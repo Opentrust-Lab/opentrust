@@ -20,10 +20,15 @@ a {
 
 .more {
     display: inline-block;
-    margin-top: 70px;
+    margin-top: 40px;
     color: #FD9843;
 }
 
+.YouTubeDemo {
+    display: inline-block;
+    margin-top: 10px;
+    color: #FD9843;
+}
 @keyframes move_wave {
     0% {
         transform: translateX(0) translateZ(0) scaleY(1)
@@ -78,7 +83,7 @@ a {
     overflow: hidden;
     height: 100%;
     bottom: -1px;
-    background-image: linear-gradient(to top, #86377b 20%, #27273c 80%);
+    background-image: linear-gradient(to top, #D9D9D9 20%, #6E6C83 80%);
 }
 
 .bgTop {
@@ -186,6 +191,12 @@ a {
     background-image: linear-gradient(to right, #ffffff, #dddddd, #ffffff);
 }
 
+.Twitter {
+    display: inline-block;
+    margin-top: 10px;
+    color: #FFFFFF;
+}
+
 .rnSection {
     padding: 0 0 20px;
 }
@@ -210,8 +221,16 @@ a {
 }
 
 .rnSection .describe p {
-    line-height: 1.6;
+    line-height: 1.4;
     margin: 30px 0;
+    font-size: 20px;
+}
+
+.FHE-Photo {
+    display: block;
+    width: 70%;
+    margin: auto;
+    margin-top: 8px;
 }
 
 .compSection {
@@ -241,7 +260,8 @@ a {
 
 .compSection ol {
     padding-top: 20px;
-    padding-left: 40%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .compSection li {
@@ -363,7 +383,8 @@ a {
 }
 
 .mixSection ol {
-    padding-left: 20%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .warpper a {
@@ -393,7 +414,7 @@ a {
     background: #fff;
     box-shadow: 3px 3px 8px #e5e5e5;
     width: 45%;
-    height: 300px;
+    height: 400px;
     padding-top: 50px;
     margin-bottom: 30px;
     transition: transform 0.2s ease;
@@ -410,45 +431,70 @@ a {
     color: #379FE3;
 }
 
-.editerDemo {
+.Demo {
     display: block;
     width: 66%;
     margin: auto;
-    margin-top: 10px;
+    margin-top: 9px;
 }
+
+.JPG {
+    display: block;
+    width: 70%;
+    margin: auto;
+    margin-top: 8px;
+	
+}
+
 
 /* 团队成员 */
 
 .teamSection {
-    padding: 40px 0;
-    background: #FAFAFA;
+    padding: 0 0 30px;
+    background: #FFFFFF;
 		text-align: center;
 		border-top: 1px solid #EEE;
 }
 
 .teamSection dt {
-    padding: 20px 0 40px;
+    padding: 14px 0 20px;
     font-size: 38px;
+    color: #939393;
 }
+
 
 .teamSection dd {
-    display: inline-block;
-    width: 100px;
-    font-size: 14px;
-    color: #939393;
-    margin: 20px 10px;
-}
-
-.teamSection dd a {
-    color: #6b6578;
-}
-
-.teamSection dd img {
+    z-index: 20;
     display: block;
-    width: 45px;
-    height: 45px;
-    border-radius: 50%;
-    margin: 0 auto 8px;
+    width: 80%;
+/*     vertical-align: top; */
+}
+
+.teamSection h2 {
+    font-size: 24px;
+    line-height: 1.6;
+    text-align: left;
+    font-weight: bold;
+}
+
+.teamSection p {
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    color: #000000;
+    
+}
+
+.teamSection li {
+    list-style-type: circle;
+    line-height: 1;
+    text-align: left;
+    color: #939393;
+}
+
+.teamSection ol {
+    padding-left: 0;
+    margin: 5px 5px;
 }
 
 #footer {
@@ -462,4 +508,5 @@ a {
 #footer p {
     text-align: center;
     font-size: 16px;
+    margin: 0;
 }
