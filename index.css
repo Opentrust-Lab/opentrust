@@ -496,7 +496,7 @@ a {
 
 .teamSection li {
     list-style-type: circle;
-    line-height: 1;
+    line-height: 1.2;
     text-align: left;
     color: #939393;
     font-size: 18px;
