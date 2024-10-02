@@ -38,6 +38,13 @@ a {
     color: #939393;
 }
 
+.HtmlDemo2 {
+    display: inline-block;
+    position: relative;
+    left: 20%;
+    color: #939393;
+}
+
 @keyframes move_wave {
     0% {
         transform: translateX(0) translateZ(0) scaleY(1)
