@@ -27,14 +27,14 @@ a {
 .YouTubeDemo {
     display: inline-block;
     margin-top: 5px;
-    color: #FD9843;
+    color: #939393;
 }
 
 .HtmlDemo {
     display: inline-block;
     position: relative;
     left: 25%;
-    color: #FD9843;
+    color: #939393;
 }
 
 @keyframes move_wave {
@@ -422,7 +422,7 @@ a {
     background: #fff;
     box-shadow: 3px 3px 8px #e5e5e5;
     width: 45%;
-    height: 300px;
+    height: 350px;
     padding-top: 50px;
     margin-bottom: 30px;
     transition: transform 0.2s ease;
