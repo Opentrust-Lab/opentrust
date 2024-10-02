@@ -236,28 +236,31 @@
 				</dd>
 				<dd>
 					<h2>Is it like ZK?</h2>
+					<p>No. </p>
 					<ol>
-						<li>No. 
-						<br/>Both FHE and ZKP can protect the security of the original data, but in different methods. FHE allows computations to be performed on encrypted data and produce result. Data providers only need to provide the encrypted dataset without any other computation requirement. 
-In contrast, ZKP is a proof of validity of a statement without revealing anything other than the validity of the statement itself. The prover must complete all the necessary computations under ZKP.
+						<li>Both FHE and ZKP can protect the security of the original data, but in different methods:
+						<br/>FHE allows computations to be performed on encrypted data and produce result. Data providers only need to provide the encrypted dataset without any other computation requirement. 
+                                                <br/>In contrast, ZKP is a proof of validity of a statement without revealing anything other than the validity of the statement itself. The prover must complete all the necessary computations under ZKP.
 						<br/>One of the core differences between FHE and ZK is where the computation of  data are executed: with FHE, the computations are performed by another party other than the data provider, while with ZKP, the computations are performed by the data provider. Compared to ZKP, FHE offers better feasibility to sensitive data in scenarios where tasks require huge computing power and where third parties need to handle raw data using third-party AI models.
 						</li>
 					</ol>
 				</dd>
 				<dd>
 					<h2>Is it like TEE?</h2>
+					<p>No. </p>
 					<ol>
-						<li>No.
-						<br/>TEE combines hardware and software to provide a secure, isolated computing environment, ensuring the safety of the data computation process. The security of TEE depends on the hardware manufacturer and system provider, and its computations are still performed on plaintext data.
-						<br/>Unlike TEE, FHE does not rely on hardware for its security; Instead, FHE can ensure the security based solely on math and algorithms, which allows it to operate in any hardware environment.
+						<li>TEE combines hardware and software to provide a secure, isolated computing environment, ensuring the safety of the data computation process. 
+						<br/>The security of TEE depends on the hardware manufacturer and system provider, and its computations are still performed on plaintext data.</li>
+						<li>Unlike TEE, FHE does not rely on hardware for its security; Instead, FHE can ensure the security based solely on math and algorithms, which allows it to operate in any hardware environment.</li>
 </li>
 					</ol>
 				</dd>
 				<dd>
 					<h2>Is FHE too early for practical use?</h2>
 					<ol>
-						<li>The working principles of FHE are quite complex, therefore the computational efficiency of ciphertext operations is 5 to 6 orders of magnitude (that is, 100,000+ to 1,000,000+) slower compared to plaintext operations. As a result, there is a common consensus that FHE is generally considered impractical at present. 
-						<br/>Opentrust, based on Shaftstop, has achieved a 1000 times speedup compared to mainstream FHE algorithms, making it practical for application scenarios with low real-time requirements.
+						<li>The working principles of FHE are quite complex, therefore the computational efficiency of ciphertext operations is 5 to 6 orders of magnitude (that is, 100,000+ to 1,000,000+) slower compared to plaintext operations. 
+						<br/>As a result, there is a common consensus that FHE is generally considered impractical at present. </li>
+						<li>Opentrust, based on Shaftstop, has achieved a 1000 times speedup compared to mainstream FHE algorithms, making it practical for application scenarios with low real-time requirements.</li>
 </li>
 					</ol>
 					
@@ -266,7 +269,7 @@ In contrast, ZKP is a proof of validity of a statement without revealing anythin
 					<h2>Is FHE post-quantum secure?</h2>
 					<ol>
 						<li>Post-quantum security is one of the future trends in both academia and industry. In fact, Mainstream FHE algorithms are dealing with long-standing hard problems regarding lattices, which are widely believed to be quantum-resistant. In this way, FHE algorithms may have potentials of withstanding attacks from quantum computers. 
-						<br/>Shaftstop, on the other hand, is based on multivariate. So far, there is no efficient quantum algorithm to solve these problems (although some scholars believe that multivariate may eventually be vulnerable to quantum attacks in the long term). Therefore, the Shaftstop algorithm also has potential to be post-quantum secure in the future.
+						<li>Shaftstop, on the other hand, is based on multivariate. So far, there is no efficient quantum algorithm to solve these problems (although some scholars believe that multivariate may eventually be vulnerable to quantum attacks in the long term). Therefore, the Shaftstop algorithm also has potential to be post-quantum secure in the future.</li>
 </li>
                                         </ol>
 				</dd>
