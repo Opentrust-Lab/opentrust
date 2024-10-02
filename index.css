@@ -475,7 +475,7 @@ a {
 .teamSection dd {
     z-index: 20;
     display: block;
-    width: 80%;
+    width: 90%;
 /*     vertical-align: top; */
 }
 
@@ -503,7 +503,7 @@ a {
 
 .teamSection ol {
     padding-left: 0;
-    margin: 5px 5px;
+    margin: 5px 5px 0;
 }
 
 #footer {
