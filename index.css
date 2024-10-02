@@ -41,7 +41,7 @@ a {
 .HtmlDemo2 {
     display: inline-block;
     position: relative;
-    left: 20%;
+    left: 21%;
     color: #939393;
 }
 
@@ -299,7 +299,7 @@ a {
     border-radius: 4px;
     box-shadow: 3px 3px 8px #e5e5e5;
     width: 45%;
-    height: 450px;
+    height: 500px;
     padding-top: 50px;
     transition: transform 0.2s ease;
 }
