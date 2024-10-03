@@ -517,6 +517,13 @@ a {
     margin: 5px 0 5px;
 }
 
+.what-is-fhe {
+    display: block;
+    width: 20%;
+    margin: auto;
+    margin-top: 2px;
+}
+
 #footer {
     height: 60px;
     line-height: 60px;
