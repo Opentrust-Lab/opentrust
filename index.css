@@ -521,9 +521,8 @@ a {
     display: block;
     width: 20%;
     height: auto;
-    margin: auto;
     margin-top: 5px;
-    text-align: left;
+    margin-left: 0;
 }
 
 #footer {
