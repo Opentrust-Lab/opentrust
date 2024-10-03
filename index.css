@@ -520,8 +520,9 @@ a {
 .what-is-fhe {
     display: block;
     width: 20%;
+    height: auto;
     margin: auto;
-    margin-top: 2px;
+    margin-top: 5px;
     text-align: left;
 }
 
